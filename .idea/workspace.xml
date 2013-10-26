@@ -13,6 +13,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="85c86a4e-3bfd-4c92-b114-66169fd47f9c" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/me/breidenbach/gadzarks/engine/time/DaysAsDaysReader.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/me/breidenbach/gadzarks/engine/time/MinutesAsDaysTimeReader.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/me/breidenbach/gadzarks/engine/time/TimeReader.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/me/breidenbach/gadzarks/engine/time/TimeReaderFactory.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/me/breidenbach/gadzarks/engine/data/DataException.java" afterPath="$PROJECT_DIR$/src/main/java/me/breidenbach/gadzarks/engine/data/DataException.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/me/breidenbach/HelloAndroidActivity.java" afterPath="$PROJECT_DIR$/src/main/java/me/breidenbach/HelloAndroidActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/me/breidenbach/gadzarks/engine/data/PlistParser.java" afterPath="$PROJECT_DIR$/src/main/java/me/breidenbach/gadzarks/engine/data/PlistParser.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/me/breidenbach/gadzarks/engine/data/PlistReader.java" afterPath="$PROJECT_DIR$/src/main/java/me/breidenbach/gadzarks/engine/data/PlistReader.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/me/breidenbach/gadzarks/engine/data/SetUpData.java" afterPath="$PROJECT_DIR$/src/main/java/me/breidenbach/gadzarks/engine/data/SetUpData.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/me/breidenbach/gadzarks/engine/data/Zark.java" afterPath="$PROJECT_DIR$/src/main/java/me/breidenbach/gadzarks/engine/data/Zark.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/me/breidenbach/gadzarks/engine/data/ZarkSet.java" afterPath="$PROJECT_DIR$/src/main/java/me/breidenbach/gadzarks/engine/data/ZarkSet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/me/breidenbach/gadzarks/engine/data/ZarkSets.java" afterPath="$PROJECT_DIR$/src/main/java/me/breidenbach/gadzarks/engine/data/ZarkSets.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="GadZarks.iws" />
@@ -26,7 +38,7 @@
     <file path="$PROJECT_DIR$/res/values/styles.xml" changelist="85c86a4e-3bfd-4c92-b114-66169fd47f9c" time="1382746424702" ignored="false" />
     <file path="/a.dummy" changelist="85c86a4e-3bfd-4c92-b114-66169fd47f9c" time="1382746611572" ignored="false" />
     <file path="/strings.xml" changelist="85c86a4e-3bfd-4c92-b114-66169fd47f9c" time="1382746630672" ignored="false" />
-    <file path="/fragment.java" changelist="85c86a4e-3bfd-4c92-b114-66169fd47f9c" time="1382827447672" ignored="false" />
+    <file path="/fragment.java" changelist="85c86a4e-3bfd-4c92-b114-66169fd47f9c" time="1382831390675" ignored="false" />
     <file path="/Dummy.txt" changelist="85c86a4e-3bfd-4c92-b114-66169fd47f9c" time="1382827732013" ignored="false" />
     <file path="/pom.xml" changelist="85c86a4e-3bfd-4c92-b114-66169fd47f9c" time="1382804086285" ignored="false" />
     <file path="/PlistReader.java" changelist="85c86a4e-3bfd-4c92-b114-66169fd47f9c" time="1382821179080" ignored="false" />
@@ -35,14 +47,18 @@
     <file path="/ZarkSetsPlistReader.java" changelist="85c86a4e-3bfd-4c92-b114-66169fd47f9c" time="1382823940508" ignored="false" />
     <file path="/testMain.java" changelist="85c86a4e-3bfd-4c92-b114-66169fd47f9c" time="1382822242801" ignored="false" />
     <file path="/TestMain.java" changelist="85c86a4e-3bfd-4c92-b114-66169fd47f9c" time="1382822244335" ignored="false" />
-    <file path="/HelloAndroidActivity.java" changelist="85c86a4e-3bfd-4c92-b114-66169fd47f9c" time="1382827400693" ignored="false" />
+    <file path="/HelloAndroidActivity.java" changelist="85c86a4e-3bfd-4c92-b114-66169fd47f9c" time="1382831287693" ignored="false" />
     <file path="/PlistParser.java" changelist="85c86a4e-3bfd-4c92-b114-66169fd47f9c" time="1382823355174" ignored="false" />
     <file path="/ZarkSetPlistReader.java" changelist="85c86a4e-3bfd-4c92-b114-66169fd47f9c" time="1382823910085" ignored="false" />
     <file path="/SetUpData.java" changelist="85c86a4e-3bfd-4c92-b114-66169fd47f9c" time="1382826953445" ignored="false" />
-    <file path="/Test.java" changelist="85c86a4e-3bfd-4c92-b114-66169fd47f9c" time="1382824633254" ignored="false" />
+    <file path="/Test.java" changelist="85c86a4e-3bfd-4c92-b114-66169fd47f9c" time="1382831121901" ignored="false" />
     <file path="/ZarkSet.java" changelist="85c86a4e-3bfd-4c92-b114-66169fd47f9c" time="1382825592630" ignored="false" />
     <file path="/Zark.java" changelist="85c86a4e-3bfd-4c92-b114-66169fd47f9c" time="1382825277843" ignored="false" />
     <file path="/ZarkSets.java" changelist="85c86a4e-3bfd-4c92-b114-66169fd47f9c" time="1382825793142" ignored="false" />
+    <file path="/TimeReader.java" changelist="85c86a4e-3bfd-4c92-b114-66169fd47f9c" time="1382828588948" ignored="false" />
+    <file path="/DaysAsDaysReader.java" changelist="85c86a4e-3bfd-4c92-b114-66169fd47f9c" time="1382831643623" ignored="false" />
+    <file path="/MinutesAsDaysTimeReader.java" changelist="85c86a4e-3bfd-4c92-b114-66169fd47f9c" time="1382831587451" ignored="false" />
+    <file path="/TimeReaderFactory.java" changelist="85c86a4e-3bfd-4c92-b114-66169fd47f9c" time="1382830799832" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,19 +119,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="HelloAndroidActivity.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/me/breidenbach/HelloAndroidActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="155" selection-start="1771" selection-end="1771" vertical-scroll-proportion="0.6605505">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="SetUpData.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/me/breidenbach/gadzarks/engine/data/SetUpData.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="30" selection-start="1285" selection-end="1285" vertical-scroll-proportion="0.0">
+            <state line="14" column="4" selection-start="252" selection-end="306" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -123,19 +130,37 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="zark.plist" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/zark_sets/01/02/zark.plist">
+      <file leaf-file-name="PlistParser.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/me/breidenbach/gadzarks/engine/data/PlistParser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="19" column="6" selection-start="483" selection-end="483" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ZarkSet.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/me/breidenbach/gadzarks/engine/data/ZarkSet.java">
+      <file leaf-file-name="PlistReader.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/me/breidenbach/gadzarks/engine/data/PlistReader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="4" selection-start="298" selection-end="298" vertical-scroll-proportion="0.0">
+            <state line="15" column="6" selection-start="355" selection-end="355" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DataException.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/me/breidenbach/gadzarks/engine/data/DataException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="13" selection-start="130" selection-end="130" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DaysAsDaysReader.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/me/breidenbach/gadzarks/engine/time/DaysAsDaysReader.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="28" column="20" selection-start="692" selection-end="692" vertical-scroll-proportion="0.5230386">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -143,28 +168,30 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ZarkSets.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/me/breidenbach/gadzarks/engine/data/ZarkSets.java">
+      <file leaf-file-name="TimeReader.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/me/breidenbach/gadzarks/engine/time/TimeReader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="0" selection-start="506" selection-end="506" vertical-scroll-proportion="0.0">
+            <state line="8" column="28" selection-start="174" selection-end="174" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Zark.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/me/breidenbach/gadzarks/engine/data/Zark.java">
+      <file leaf-file-name="TimeReaderFactory.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/me/breidenbach/gadzarks/engine/time/TimeReaderFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="4" selection-start="208" selection-end="208" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="38" column="0" selection-start="1002" selection-end="1002" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="zark.plist" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/zark_sets/01/01/zark.plist">
+      <file leaf-file-name="HelloAndroidActivity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/me/breidenbach/HelloAndroidActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="47" column="0" selection-start="1516" selection-end="1516" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -173,26 +200,19 @@
       <file leaf-file-name="Test.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/me/breidenbach/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="60" selection-start="213" selection-end="220" vertical-scroll-proportion="0.0">
+            <state line="44" column="0" selection-start="1271" selection-end="1271" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="zark_set.plist" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/zark_sets/03/zark_set.plist">
+      <file leaf-file-name="MinutesAsDaysTimeReader.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/me/breidenbach/gadzarks/engine/time/MinutesAsDaysTimeReader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="0" selection-start="269" selection-end="269" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="zark_sets.plist" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/zark_sets/zark_sets.plist">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="22" selection-start="207" selection-end="207" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="25" column="53" selection-start="617" selection-end="617" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -215,22 +235,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/me/breidenbach/gadzarks/engine/data/DataException.java" />
-        <option value="$PROJECT_DIR$/assets/zark_sets/zark_sets.plist" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/GadZarksTest/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/me/breidenbach/testMain.java" />
         <option value="$PROJECT_DIR$/src/main/java/me/breidenbach/TestMain.java" />
         <option value="$PROJECT_DIR$/src/main/java/me/breidenbach/gadzarks/engine/data/PlistParser.java" />
         <option value="$PROJECT_DIR$/src/main/java/me/breidenbach/gadzarks/engine/data/ZarkSetPlistReader.java" />
         <option value="$PROJECT_DIR$/src/main/java/me/breidenbach/gadzarks/engine/data/ZarkSetsPlistReader.java" />
         <option value="$PROJECT_DIR$/src/main/java/me/breidenbach/gadzarks/engine/data/PlistReader.java" />
-        <option value="$PROJECT_DIR$/src/main/java/me/breidenbach/Test.java" />
-        <option value="$PROJECT_DIR$/src/main/java/me/breidenbach/gadzarks/engine/data/ZarkSet.java" />
-        <option value="$PROJECT_DIR$/src/main/java/me/breidenbach/gadzarks/engine/data/Zark.java" />
         <option value="$PROJECT_DIR$/src/main/java/me/breidenbach/gadzarks/engine/data/ZarkSets.java" />
         <option value="$PROJECT_DIR$/src/main/java/me/breidenbach/gadzarks/engine/data/SetUpData.java" />
+        <option value="$PROJECT_DIR$/src/main/java/me/breidenbach/gadzarks/engine/data/Zark.java" />
+        <option value="$PROJECT_DIR$/src/main/java/me/breidenbach/gadzarks/engine/time/TimeReader.java" />
+        <option value="$PROJECT_DIR$/src/main/java/me/breidenbach/gadzarks/engine/data/ZarkSet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/me/breidenbach/gadzarks/engine/time/TimeReaderFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/me/breidenbach/Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/me/breidenbach/HelloAndroidActivity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/me/breidenbach/gadzarks/engine/time/MinutesAsDaysTimeReader.java" />
+        <option value="$PROJECT_DIR$/src/main/java/me/breidenbach/gadzarks/engine/time/DaysAsDaysReader.java" />
       </list>
     </option>
   </component>
@@ -348,6 +368,40 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="gadzarks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GadZarks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GadZarks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="breidenbach" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gadzarks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="engine" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -375,6 +429,48 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="breidenbach" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gadzarks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="engine" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="time" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GadZarks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GadZarks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="breidenbach" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gadzarks" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -640,7 +736,7 @@
       <recent name="$PROJECT_DIR$/assets" />
     </key>
   </component>
-  <component name="RunManager" selected="Android Application.Nexus One Emulator">
+  <component name="RunManager" selected="Android Application.HTC Desire Emulator">
     <configuration default="false" name="Test" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -894,7 +990,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1680" height="974" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -916,8 +1012,8 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.249694" sideWeight="0.6709602" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3290398" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.249694" sideWeight="0.6709602" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290398" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32986537" sideWeight="0.6709602" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
@@ -993,62 +1089,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/assets/zark_sets/03/09/zark.plist">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="0" selection-start="904" selection-end="904" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GadZarksTest/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="10" selection-start="507" selection-end="507" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../android-sdk-macosx/sources/android-14/org/xmlpull/v1/XmlPullParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="258" column="37" selection-start="10303" selection-end="10303" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/me/breidenbach/gadzarks/engine/data/PlistParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="65" selection-start="2145" selection-end="2145" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/me/breidenbach/gadzarks/engine/data/PlistReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="6" selection-start="355" selection-end="355" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/zark_sets/zark_sets.plist">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="22" selection-start="207" selection-end="207" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/me/breidenbach/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="60" selection-start="213" selection-end="220" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/zark_sets/01/01/zark.plist">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -1070,22 +1110,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/me/breidenbach/gadzarks/engine/data/Zark.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="4" selection-start="208" selection-end="208" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/me/breidenbach/gadzarks/engine/data/ZarkSet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="4" selection-start="298" selection-end="298" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/me/breidenbach/gadzarks/engine/data/ZarkSets.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="21" column="0" selection-start="506" selection-end="506" vertical-scroll-proportion="0.0">
@@ -1093,19 +1117,95 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/me/breidenbach/gadzarks/engine/data/ZarkSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="46" selection-end="46" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/me/breidenbach/gadzarks/engine/data/Zark.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="4" selection-start="208" selection-end="208" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/me/breidenbach/gadzarks/engine/data/SetUpData.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="30" selection-start="1285" selection-end="1285" vertical-scroll-proportion="0.0">
+        <state line="14" column="4" selection-start="252" selection-end="306" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/me/breidenbach/gadzarks/engine/data/PlistReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="6" selection-start="355" selection-end="355" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/me/breidenbach/gadzarks/engine/data/PlistParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="6" selection-start="483" selection-end="483" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/me/breidenbach/gadzarks/engine/data/DataException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="13" selection-start="130" selection-end="130" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/me/breidenbach/gadzarks/engine/time/TimeReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="28" selection-start="174" selection-end="174" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/me/breidenbach/gadzarks/engine/time/TimeReaderFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="0" selection-start="1002" selection-end="1002" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/me/breidenbach/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="0" selection-start="1271" selection-end="1271" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/me/breidenbach/HelloAndroidActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="155" selection-start="1771" selection-end="1771" vertical-scroll-proportion="0.6605505">
+        <state line="47" column="0" selection-start="1516" selection-end="1516" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/me/breidenbach/gadzarks/engine/time/MinutesAsDaysTimeReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="53" selection-start="617" selection-end="617" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/me/breidenbach/gadzarks/engine/time/DaysAsDaysReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="20" selection-start="692" selection-end="692" vertical-scroll-proportion="0.5230386">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -1,12 +1,11 @@
 package me.breidenbach.gadzarks.engine.data;
 
-import java.util.HashMap;
 import java.util.Map;
 
 /**
  * User: Kevin Breidenbach
  * Date: 10/26/13
- * Time: 5:04 PM
+ * time: 5:04 PM
  */
 public class ZarkSet {
     private final int count;

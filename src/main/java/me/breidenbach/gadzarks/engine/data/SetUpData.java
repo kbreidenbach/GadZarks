@@ -9,7 +9,7 @@ import java.util.Map;
 /**
  * User: Kevin Breidenbach
  * Date: 10/26/13
- * Time: 4:41 PM
+ * time: 4:41 PM
  */
 public class SetUpData {
     private static final String LOG_TAG = "GADZARKS_DATA";

@@ -3,7 +3,7 @@ package me.breidenbach.gadzarks.engine.data;
 /**
  * User: Kevin Breidenbach
  * Date: 10/26/13
- * Time: 5:06 PM
+ * time: 5:06 PM
  */
 public class Zark {
     private final String title;
