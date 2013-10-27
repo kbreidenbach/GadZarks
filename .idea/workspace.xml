@@ -25,25 +25,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="85c86a4e-3bfd-4c92-b114-66169fd47f9c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/fonts/Abadi_MT_Condensed.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/fonts/Abadi_MT_Condensed_Light.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/me/breidenbach/gadzarks/engine/Engine.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/me/breidenbach/gadzarks/engine/EngineDataChangeListener.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/me/breidenbach/gadzarks/engine/time/EpochChangeListener.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/me/breidenbach/gadzarks/views/PoemView.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/me/breidenbach/gadzarks/views/SettingsView.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/AGBookProLigCnd.otf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/AGBookProMedCnd.otf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/me/breidenbach/gadzarks/engine/time/MinutesAsDaysTimeReader.java" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/me/breidenbach/HelloAndroidActivity.java" afterPath="$PROJECT_DIR$/src/main/java/me/breidenbach/GadZarksActivity.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/me/breidenbach/gadzarks/engine/time/DaysAsDaysReader.java" afterPath="$PROJECT_DIR$/src/main/java/me/breidenbach/gadzarks/engine/time/DaysSinceEpoch.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/me/breidenbach/gadzarks/engine/time/TimeReaderFactory.java" afterPath="$PROJECT_DIR$/src/main/java/me/breidenbach/gadzarks/engine/time/TimeManager.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/me/breidenbach/gadzarks/engine/data/SetUpData.java" afterPath="$PROJECT_DIR$/src/main/java/me/breidenbach/gadzarks/engine/data/SetUpData.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/me/breidenbach/gadzarks/engine/time/TimeReader.java" afterPath="$PROJECT_DIR$/src/main/java/me/breidenbach/gadzarks/engine/time/TimeReader.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/me/breidenbach/gadzarks/engine/data/Zark.java" afterPath="$PROJECT_DIR$/src/main/java/me/breidenbach/gadzarks/engine/data/Zark.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/me/breidenbach/gadzarks/engine/data/ZarkSet.java" afterPath="$PROJECT_DIR$/src/main/java/me/breidenbach/gadzarks/engine/data/ZarkSet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/activity_main.xml" afterPath="$PROJECT_DIR$/res/layout/activity_main.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LICENSE" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/me/breidenbach/gadzarks/engine/Engine.java" afterPath="$PROJECT_DIR$/src/main/java/me/breidenbach/gadzarks/engine/Engine.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="GadZarks.iws" />
@@ -51,7 +34,7 @@
     <file path="/a.dummy" changelist="85c86a4e-3bfd-4c92-b114-66169fd47f9c" time="1382746611572" ignored="false" />
     <file path="/strings.xml" changelist="85c86a4e-3bfd-4c92-b114-66169fd47f9c" time="1382746630672" ignored="false" />
     <file path="/fragment.java" changelist="85c86a4e-3bfd-4c92-b114-66169fd47f9c" time="1382848702899" ignored="false" />
-    <file path="/Dummy.txt" changelist="85c86a4e-3bfd-4c92-b114-66169fd47f9c" time="1382850311608" ignored="false" />
+    <file path="/Dummy.txt" changelist="85c86a4e-3bfd-4c92-b114-66169fd47f9c" time="1382903688513" ignored="false" />
     <file path="/pom.xml" changelist="85c86a4e-3bfd-4c92-b114-66169fd47f9c" time="1382804086285" ignored="false" />
     <file path="/PlistReader.java" changelist="85c86a4e-3bfd-4c92-b114-66169fd47f9c" time="1382821179080" ignored="false" />
     <file path="/DataException.java" changelist="85c86a4e-3bfd-4c92-b114-66169fd47f9c" time="1382806927388" ignored="false" />
@@ -84,7 +67,7 @@
     <file path="/activity_main.xml" changelist="85c86a4e-3bfd-4c92-b114-66169fd47f9c" time="1382844766681" ignored="false" />
     <file path="/GadZarksActivity.java" changelist="85c86a4e-3bfd-4c92-b114-66169fd47f9c" time="1382897976421" ignored="false" />
     <file path="/PoemView.java" changelist="85c86a4e-3bfd-4c92-b114-66169fd47f9c" time="1382895977001" ignored="false" />
-    <file path="/Engine.java" changelist="85c86a4e-3bfd-4c92-b114-66169fd47f9c" time="1382903597342" ignored="false" />
+    <file path="/Engine.java" changelist="85c86a4e-3bfd-4c92-b114-66169fd47f9c" time="1382903784680" ignored="false" />
     <file path="/TimeChangeListener.java" changelist="85c86a4e-3bfd-4c92-b114-66169fd47f9c" time="1382900287582" ignored="false" />
     <file path="/DaysSinceEpoch.java" changelist="85c86a4e-3bfd-4c92-b114-66169fd47f9c" time="1382900241616" ignored="false" />
     <file path="/TimeManager.java" changelist="85c86a4e-3bfd-4c92-b114-66169fd47f9c" time="1382897951187" ignored="false" />
@@ -161,7 +144,7 @@
       <file leaf-file-name="Engine.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/me/breidenbach/gadzarks/engine/Engine.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="88" column="5" selection-start="2973" selection-end="2973" vertical-scroll-proportion="1.2931035">
+            <state line="126" column="5" selection-start="4240" selection-end="4240" vertical-scroll-proportion="0.8505604">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -1149,7 +1132,11 @@
       <created>1382850315196</created>
       <updated>1382850315196</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Added engine to calculate grid">
+      <created>1382903696712</created>
+      <updated>1382903696712</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1168,7 +1155,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.249694" sideWeight="0.6709602" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3290398" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290398" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32986537" sideWeight="0.6709602" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1230,7 +1217,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Menu Image to main screen" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added engine to calculate grid" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -1250,6 +1237,7 @@
     <MESSAGE value="Added Grid View for days" />
     <MESSAGE value="Added Header Image Views" />
     <MESSAGE value="Added Menu Image to main screen" />
+    <MESSAGE value="Added engine to calculate grid" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1375,7 +1363,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/me/breidenbach/gadzarks/engine/Engine.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="88" column="5" selection-start="2973" selection-end="2973" vertical-scroll-proportion="1.2931035">
+        <state line="126" column="5" selection-start="4240" selection-end="4240" vertical-scroll-proportion="0.8505604">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
