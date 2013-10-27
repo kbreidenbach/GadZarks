@@ -1,17 +1,21 @@
 package me.breidenbach.gadzarks.engine.data;
 
+import android.graphics.drawable.Drawable;
+
 /**
  * User: Kevin Breidenbach
  * Date: 10/26/13
- * Time: 5:06 PM
+ * time: 5:06 PM
  */
 public class Zark {
     private final String title;
     private final String poemLine;
+    private final Drawable zarkImage;
 
-    Zark(String title, String poemLine) {
+    Zark(final String title, final String poemLine, final Drawable zarkImage) {
         this.title = title;
         this.poemLine = poemLine;
+        this.zarkImage = zarkImage;
     }
 
     public String title() {
@@ -20,5 +24,9 @@ public class Zark {
 
     public String poemLine() {
         return poemLine;
+    }
+
+    public Drawable zarkImage() {
+        return zarkImage;
     }
 }

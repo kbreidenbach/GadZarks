@@ -5,7 +5,7 @@ import java.util.Map;
 /**
  * User: Kevin Breidenbach
  * Date: 10/26/13
- * Time: 5:13 PM
+ * time: 5:13 PM
  */
 public class ZarkSets {
     private final int numberOfZarksSets;

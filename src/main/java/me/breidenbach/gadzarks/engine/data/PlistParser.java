@@ -14,7 +14,7 @@ import java.util.Map;
 /**
  * User: Kevin Breidenbach
  * Date: 10/26/13
- * Time: 11:36 AM
+ * time: 11:36 AM
  * TODO THIS CLASS IS CRAP AND NEEDS TO BE TIDIED UP AND RESTRUCTURED
  */
 class PlistParser {

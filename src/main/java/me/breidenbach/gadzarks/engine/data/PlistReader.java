@@ -5,7 +5,7 @@ import android.content.Context;
 /**
  * User: Kevin Breidenbach
  * Date: 10/26/13
- * Time: 3:53 PM
+ * time: 3:53 PM
  */
 class PlistReader {
     private final PlistParser parser;

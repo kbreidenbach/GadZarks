@@ -1,21 +1,24 @@
 package me.breidenbach.gadzarks.engine.data;
 
-import java.util.HashMap;
+import android.graphics.drawable.Drawable;
+
 import java.util.Map;
 
 /**
  * User: Kevin Breidenbach
  * Date: 10/26/13
- * Time: 5:04 PM
+ * time: 5:04 PM
  */
 public class ZarkSet {
     private final int count;
     private final String color;
+    private final Drawable header;
     private final Map<Integer, Zark> zarks;
 
-    ZarkSet(final String color, final int count, final Map<Integer, Zark> zarks) {
+    ZarkSet(final String color, final int count, final Drawable header, final Map<Integer, Zark> zarks) {
         this.color = color;
         this.count = count;
+        this.header = header;
         this.zarks = zarks;
     }
 
@@ -25,6 +28,10 @@ public class ZarkSet {
 
     public int count() {
         return count;
+    }
+
+    public Drawable header() {
+        return header;
     }
 
     public Zark getZark(int number) {
