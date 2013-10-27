@@ -28,9 +28,8 @@ public class TimeManager {
     public TimeManager(Context context) {
         this.context = context;
         Date epoch = readEpochDate();
-        if (epoch == null) {
-            epoch = GregorianCalendar.getInstance().getTime();
-            writeEpochDate(epoch);
+        if (readEpochDate() == null) {
+            epoch = resetEpoch();
         }
         daysSinceEpoch = new DaysSinceEpoch(epoch);
     }
@@ -46,6 +45,12 @@ public class TimeManager {
 
     public TimeReader getTimeReader() {
         return daysSinceEpoch;
+    }
+
+    private Date resetEpoch() {
+        Date epoch = GregorianCalendar.getInstance().getTime();
+        writeEpochDate(epoch);
+        return epoch;
     }
 
     private void writeEpochDate(Date epochDate) {
