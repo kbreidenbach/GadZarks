@@ -66,6 +66,7 @@ public class Engine implements EpochChangeListener {
         for (int index = firstItemToDisplay; index < lastLabelToDisplay; index++) {
             grid[gridIndex++] = cellData.get(index);
         }
+        notifyDataChange();
     }
 
     private void setUpList() {
@@ -85,6 +86,12 @@ public class Engine implements EpochChangeListener {
                     first = false;
                 }
             }
+        }
+    }
+
+    private void notifyDataChange() {
+        for (EngineDataChangeListener listener : listeners) {
+            listener.dataChanged();
         }
     }
 
@@ -117,11 +124,5 @@ public class Engine implements EpochChangeListener {
         public Drawable headerImage() { return headerImage; }
         public Drawable zarkImage() { return zarkImage; }
 
-    }
-
-    private void notifyDataChange() {
-        for (EngineDataChangeListener listener : listeners) {
-            listener.dataChanged();
-        }
     }
 }
