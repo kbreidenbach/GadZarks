@@ -17,28 +17,35 @@ import java.util.GregorianCalendar;
  * Date: 10/26/13
  * Time: 6:03 PM
  */
-public class TimeReaderFactory {
+public class TimeManager {
     private static final String LOG_TAG = "GADZARKS_TIME";
     private static final String EPOCH_DATE_FILE = "Gad_Zarks_Epoch";
 
     private final Context context;
-    private Date epoch;
+    private final DaysSinceEpoch daysSinceEpoch;
 
-    public TimeReaderFactory(Context context) {
+
+    public TimeManager(Context context) {
         this.context = context;
-        epoch = readEpochDate();
+        Date epoch = readEpochDate();
         if (epoch == null) {
             epoch = GregorianCalendar.getInstance().getTime();
             writeEpochDate(epoch);
         }
+        daysSinceEpoch = new DaysSinceEpoch(epoch);
+    }
+
+    public void useFastTimeReader(boolean useFast) {
+        daysSinceEpoch.useFast(useFast);
+    }
+
+    public void setDate(Date date) {
+        writeEpochDate(date);
+        daysSinceEpoch.epochChaged(date);
     }
 
     public TimeReader getTimeReader() {
-        return new DaysAsDaysReader(epoch);
-    }
-
-    public TimeReader getFastTimeReader() {
-        return new MinutesAsDaysTimeReader(epoch);
+        return daysSinceEpoch;
     }
 
     private void writeEpochDate(Date epochDate) {

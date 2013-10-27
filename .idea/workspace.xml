@@ -25,8 +25,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="85c86a4e-3bfd-4c92-b114-66169fd47f9c" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/fonts/Abadi_MT_Condensed.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/fonts/Abadi_MT_Condensed_Light.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/me/breidenbach/gadzarks/engine/Engine.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/me/breidenbach/gadzarks/engine/EngineDataChangeListener.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/me/breidenbach/gadzarks/engine/time/EpochChangeListener.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/me/breidenbach/gadzarks/views/PoemView.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/me/breidenbach/gadzarks/views/SettingsView.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/AGBookProLigCnd.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/AGBookProMedCnd.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/me/breidenbach/gadzarks/engine/time/MinutesAsDaysTimeReader.java" afterPath="" />
       <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/me/breidenbach/HelloAndroidActivity.java" afterPath="$PROJECT_DIR$/src/main/java/me/breidenbach/GadZarksActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/me/breidenbach/gadzarks/engine/time/DaysAsDaysReader.java" afterPath="$PROJECT_DIR$/src/main/java/me/breidenbach/gadzarks/engine/time/DaysSinceEpoch.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/me/breidenbach/gadzarks/engine/time/TimeReaderFactory.java" afterPath="$PROJECT_DIR$/src/main/java/me/breidenbach/gadzarks/engine/time/TimeManager.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/me/breidenbach/gadzarks/engine/data/SetUpData.java" afterPath="$PROJECT_DIR$/src/main/java/me/breidenbach/gadzarks/engine/data/SetUpData.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/me/breidenbach/gadzarks/engine/time/TimeReader.java" afterPath="$PROJECT_DIR$/src/main/java/me/breidenbach/gadzarks/engine/time/TimeReader.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/me/breidenbach/gadzarks/engine/data/Zark.java" afterPath="$PROJECT_DIR$/src/main/java/me/breidenbach/gadzarks/engine/data/Zark.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/me/breidenbach/gadzarks/engine/data/ZarkSet.java" afterPath="$PROJECT_DIR$/src/main/java/me/breidenbach/gadzarks/engine/data/ZarkSet.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/activity_main.xml" afterPath="$PROJECT_DIR$/res/layout/activity_main.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -35,7 +51,7 @@
     <file path="/a.dummy" changelist="85c86a4e-3bfd-4c92-b114-66169fd47f9c" time="1382746611572" ignored="false" />
     <file path="/strings.xml" changelist="85c86a4e-3bfd-4c92-b114-66169fd47f9c" time="1382746630672" ignored="false" />
     <file path="/fragment.java" changelist="85c86a4e-3bfd-4c92-b114-66169fd47f9c" time="1382848702899" ignored="false" />
-    <file path="/Dummy.txt" changelist="85c86a4e-3bfd-4c92-b114-66169fd47f9c" time="1382848580424" ignored="false" />
+    <file path="/Dummy.txt" changelist="85c86a4e-3bfd-4c92-b114-66169fd47f9c" time="1382850311608" ignored="false" />
     <file path="/pom.xml" changelist="85c86a4e-3bfd-4c92-b114-66169fd47f9c" time="1382804086285" ignored="false" />
     <file path="/PlistReader.java" changelist="85c86a4e-3bfd-4c92-b114-66169fd47f9c" time="1382821179080" ignored="false" />
     <file path="/DataException.java" changelist="85c86a4e-3bfd-4c92-b114-66169fd47f9c" time="1382806927388" ignored="false" />
@@ -46,15 +62,15 @@
     <file path="/HelloAndroidActivity.java" changelist="85c86a4e-3bfd-4c92-b114-66169fd47f9c" time="1382831287693" ignored="false" />
     <file path="/PlistParser.java" changelist="85c86a4e-3bfd-4c92-b114-66169fd47f9c" time="1382823355174" ignored="false" />
     <file path="/ZarkSetPlistReader.java" changelist="85c86a4e-3bfd-4c92-b114-66169fd47f9c" time="1382823910085" ignored="false" />
-    <file path="/SetUpData.java" changelist="85c86a4e-3bfd-4c92-b114-66169fd47f9c" time="1382826953445" ignored="false" />
-    <file path="/Test.java" changelist="85c86a4e-3bfd-4c92-b114-66169fd47f9c" time="1382831121901" ignored="false" />
-    <file path="/ZarkSet.java" changelist="85c86a4e-3bfd-4c92-b114-66169fd47f9c" time="1382825592630" ignored="false" />
-    <file path="/Zark.java" changelist="85c86a4e-3bfd-4c92-b114-66169fd47f9c" time="1382825277843" ignored="false" />
+    <file path="/SetUpData.java" changelist="85c86a4e-3bfd-4c92-b114-66169fd47f9c" time="1382901214925" ignored="false" />
+    <file path="/Test.java" changelist="85c86a4e-3bfd-4c92-b114-66169fd47f9c" time="1382903022623" ignored="false" />
+    <file path="/ZarkSet.java" changelist="85c86a4e-3bfd-4c92-b114-66169fd47f9c" time="1382900672530" ignored="false" />
+    <file path="/Zark.java" changelist="85c86a4e-3bfd-4c92-b114-66169fd47f9c" time="1382900656266" ignored="false" />
     <file path="/ZarkSets.java" changelist="85c86a4e-3bfd-4c92-b114-66169fd47f9c" time="1382825793142" ignored="false" />
-    <file path="/TimeReader.java" changelist="85c86a4e-3bfd-4c92-b114-66169fd47f9c" time="1382828588948" ignored="false" />
-    <file path="/DaysAsDaysReader.java" changelist="85c86a4e-3bfd-4c92-b114-66169fd47f9c" time="1382831643623" ignored="false" />
-    <file path="/MinutesAsDaysTimeReader.java" changelist="85c86a4e-3bfd-4c92-b114-66169fd47f9c" time="1382831587451" ignored="false" />
-    <file path="/TimeReaderFactory.java" changelist="85c86a4e-3bfd-4c92-b114-66169fd47f9c" time="1382830799832" ignored="false" />
+    <file path="/TimeReader.java" changelist="85c86a4e-3bfd-4c92-b114-66169fd47f9c" time="1382900086211" ignored="false" />
+    <file path="/DaysAsDaysReader.java" changelist="85c86a4e-3bfd-4c92-b114-66169fd47f9c" time="1382900332303" ignored="false" />
+    <file path="/MinutesAsDaysTimeReader.java" changelist="85c86a4e-3bfd-4c92-b114-66169fd47f9c" time="1382897495227" ignored="false" />
+    <file path="/TimeReaderFactory.java" changelist="85c86a4e-3bfd-4c92-b114-66169fd47f9c" time="1382897954532" ignored="false" />
     <file path="$PROJECT_DIR$/../Observable/.idea/workspace.xml" changelist="85c86a4e-3bfd-4c92-b114-66169fd47f9c" time="1382841002314" ignored="false" />
     <file path="$PROJECT_DIR$/../Observable/src/com/test/Observer.java" changelist="85c86a4e-3bfd-4c92-b114-66169fd47f9c" time="1382839218747" ignored="false" />
     <file path="$PROJECT_DIR$/../Observable/src/com/test/AsynchronousNotifier.java" changelist="85c86a4e-3bfd-4c92-b114-66169fd47f9c" time="1382839218747" ignored="false" />
@@ -66,7 +82,13 @@
     <file path="$PROJECT_DIR$/../Observable/.idea/misc.xml" changelist="85c86a4e-3bfd-4c92-b114-66169fd47f9c" time="1382839812024" ignored="false" />
     <file path="/a.xml" changelist="85c86a4e-3bfd-4c92-b114-66169fd47f9c" time="1382843041092" ignored="false" />
     <file path="/activity_main.xml" changelist="85c86a4e-3bfd-4c92-b114-66169fd47f9c" time="1382844766681" ignored="false" />
-    <file path="/GadZarksActivity.java" changelist="85c86a4e-3bfd-4c92-b114-66169fd47f9c" time="1382849258992" ignored="false" />
+    <file path="/GadZarksActivity.java" changelist="85c86a4e-3bfd-4c92-b114-66169fd47f9c" time="1382897976421" ignored="false" />
+    <file path="/PoemView.java" changelist="85c86a4e-3bfd-4c92-b114-66169fd47f9c" time="1382895977001" ignored="false" />
+    <file path="/Engine.java" changelist="85c86a4e-3bfd-4c92-b114-66169fd47f9c" time="1382903597342" ignored="false" />
+    <file path="/TimeChangeListener.java" changelist="85c86a4e-3bfd-4c92-b114-66169fd47f9c" time="1382900287582" ignored="false" />
+    <file path="/DaysSinceEpoch.java" changelist="85c86a4e-3bfd-4c92-b114-66169fd47f9c" time="1382900241616" ignored="false" />
+    <file path="/TimeManager.java" changelist="85c86a4e-3bfd-4c92-b114-66169fd47f9c" time="1382897951187" ignored="false" />
+    <file path="/EngineDataChangeListener.java" changelist="85c86a4e-3bfd-4c92-b114-66169fd47f9c" time="1382901946889" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,10 +149,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="DaysAsDaysReader.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/me/breidenbach/gadzarks/engine/time/DaysAsDaysReader.java">
+      <file leaf-file-name="SetUpData.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/me/breidenbach/gadzarks/engine/data/SetUpData.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="0" selection-start="692" selection-end="692" vertical-scroll-proportion="0.0">
+            <state line="87" column="105" selection-start="3424" selection-end="3424" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Engine.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/me/breidenbach/gadzarks/engine/Engine.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="88" column="5" selection-start="2973" selection-end="2973" vertical-scroll-proportion="1.2931035">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -138,47 +169,48 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="activity_main.xml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/res/layout/activity_main.xml">
-          <provider editor-type-id="text-editor">
-            <state line="30" column="55" selection-start="1899" selection-end="1899" vertical-scroll-proportion="-8.4">
-              <folding />
-            </state>
-          </provider>
-          <provider selected="true" editor-type-id="android-designer">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="955logo.png" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/955logo.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/menu/main.xml">
+      <file leaf-file-name="EngineDataChangeListener.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/me/breidenbach/gadzarks/engine/EngineDataChangeListener.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="7" selection-start="253" selection-end="253" vertical-scroll-proportion="-4.8">
+            <state line="8" column="23" selection-start="178" selection-end="178" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="strings.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
+      <file leaf-file-name="Zark.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/me/breidenbach/gadzarks/engine/data/Zark.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+            <state line="29" column="25" selection-start="650" selection-end="650" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MinutesAsDaysTimeReader.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/me/breidenbach/gadzarks/engine/time/MinutesAsDaysTimeReader.java">
+      <file leaf-file-name="ZarkSet.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/me/breidenbach/gadzarks/engine/data/ZarkSet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="53" selection-start="617" selection-end="617" vertical-scroll-proportion="0.0">
+            <state line="33" column="22" selection-start="738" selection-end="738" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TimeReader.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/me/breidenbach/gadzarks/engine/time/TimeReader.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="24" selection-start="230" selection-end="230" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EpochChangeListener.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/me/breidenbach/gadzarks/engine/time/EpochChangeListener.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="26" selection-start="206" selection-end="206" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -187,17 +219,28 @@
       <file leaf-file-name="GadZarksActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/me/breidenbach/GadZarksActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="48" selection-start="869" selection-end="869" vertical-scroll-proportion="0.0">
+            <state line="55" column="65" selection-start="1692" selection-end="1744" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+      <file leaf-file-name="Test.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/me/breidenbach/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="16" column="12" selection-start="290" selection-end="408" vertical-scroll-proportion="0.0">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DaysSinceEpoch.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/me/breidenbach/gadzarks/engine/time/DaysSinceEpoch.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="65" column="32" selection-start="1689" selection-end="1689" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -220,22 +263,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/me/breidenbach/gadzarks/engine/data/PlistParser.java" />
-        <option value="$PROJECT_DIR$/src/main/java/me/breidenbach/gadzarks/engine/data/ZarkSetPlistReader.java" />
-        <option value="$PROJECT_DIR$/src/main/java/me/breidenbach/gadzarks/engine/data/ZarkSetsPlistReader.java" />
-        <option value="$PROJECT_DIR$/src/main/java/me/breidenbach/gadzarks/engine/data/PlistReader.java" />
-        <option value="$PROJECT_DIR$/src/main/java/me/breidenbach/gadzarks/engine/data/ZarkSets.java" />
-        <option value="$PROJECT_DIR$/src/main/java/me/breidenbach/gadzarks/engine/data/SetUpData.java" />
-        <option value="$PROJECT_DIR$/src/main/java/me/breidenbach/gadzarks/engine/data/Zark.java" />
-        <option value="$PROJECT_DIR$/src/main/java/me/breidenbach/gadzarks/engine/time/TimeReader.java" />
-        <option value="$PROJECT_DIR$/src/main/java/me/breidenbach/gadzarks/engine/data/ZarkSet.java" />
-        <option value="$PROJECT_DIR$/src/main/java/me/breidenbach/gadzarks/engine/time/TimeReaderFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/me/breidenbach/Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/me/breidenbach/gadzarks/views/PoemView.java" />
         <option value="$PROJECT_DIR$/src/main/java/me/breidenbach/gadzarks/engine/time/MinutesAsDaysTimeReader.java" />
+        <option value="$PROJECT_DIR$/src/main/java/me/breidenbach/gadzarks/engine/time/TimeReaderFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/me/breidenbach/gadzarks/engine/time/DaysAsDaysReader.java" />
-        <option value="$PROJECT_DIR$/src/main/java/me/breidenbach/HelloAndroidActivity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/me/breidenbach/gadzarks/engine/time/TimeManager.java" />
         <option value="$PROJECT_DIR$/src/main/java/me/breidenbach/GadZarksActivity.java" />
-        <option value="$PROJECT_DIR$/res/layout/activity_main.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/me/breidenbach/gadzarks/engine/time/TimeChangeListener.java" />
+        <option value="$PROJECT_DIR$/src/main/java/me/breidenbach/gadzarks/engine/time/TimeReader.java" />
+        <option value="$PROJECT_DIR$/src/main/java/me/breidenbach/gadzarks/engine/time/EpochChangeListener.java" />
+        <option value="$PROJECT_DIR$/src/main/java/me/breidenbach/gadzarks/engine/time/DaysSinceEpoch.java" />
+        <option value="$PROJECT_DIR$/src/main/java/me/breidenbach/gadzarks/engine/data/Zark.java" />
+        <option value="$PROJECT_DIR$/src/main/java/me/breidenbach/gadzarks/engine/data/ZarkSet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/me/breidenbach/gadzarks/engine/data/SetUpData.java" />
+        <option value="$PROJECT_DIR$/src/main/java/me/breidenbach/gadzarks/engine/EngineDataChangeListener.java" />
+        <option value="$PROJECT_DIR$/src/main/java/me/breidenbach/Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/me/breidenbach/gadzarks/engine/Engine.java" />
       </list>
     </option>
   </component>
@@ -352,6 +395,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="gadzarks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -475,7 +522,55 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="breidenbach" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gadzarks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GadZarks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GadZarks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GadZarks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GadZarks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="values" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -677,6 +772,50 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GadZarks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GadZarks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zark_sets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="03" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="05" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GadZarks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GadZarks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fonts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -709,19 +848,20 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/fonts" />
       <recent name="$PROJECT_DIR$/res/drawable-xxhdpi" />
       <recent name="$PROJECT_DIR$/res/drawable-xhdpi" />
       <recent name="$PROJECT_DIR$/res/drawable-mdpi" />
       <recent name="$PROJECT_DIR$/res/drawable-hdpi" />
-      <recent name="$PROJECT_DIR$/assets" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/fonts" />
       <recent name="$PROJECT_DIR$/assets" />
       <recent name="$PROJECT_DIR$/res/drawable-hdpi" />
       <recent name="$PROJECT_DIR$/res/assets" />
     </key>
   </component>
-  <component name="RunManager" selected="Android Application.WVGA">
+  <component name="RunManager" selected="Application.Test">
     <configuration default="false" name="Test" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -1005,41 +1145,45 @@
       <created>1382848316105</created>
       <updated>1382848316105</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Added Menu Image to main screen">
+      <created>1382850315196</created>
+      <updated>1382850315196</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1680" height="974" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32986537" sideWeight="0.6709602" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32986537" sideWeight="0.6709602" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32986537" sideWeight="0.6709602" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32986537" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290398" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33021078" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.249694" sideWeight="0.6709602" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.249694" sideWeight="0.6709602" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3290398" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32986537" sideWeight="0.6709602" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32986537" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290398" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33021078" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.249694" sideWeight="0.6709602" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290398" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Android Console" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290398" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
     </layout>
@@ -1086,7 +1230,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Header Image Views" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Menu Image to main screen" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -1105,6 +1249,7 @@
     <MESSAGE value="Got the background done" />
     <MESSAGE value="Added Grid View for days" />
     <MESSAGE value="Added Header Image Views" />
+    <MESSAGE value="Added Menu Image to main screen" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1114,89 +1259,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/cell_row@2x.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/cell_grid.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/drawable-hdpi/ic_launcher.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/zark_sets/01/01/zark.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/zark_sets/01/header.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/zark_sets/02/header.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/menu/main.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="7" selection-start="253" selection-end="253" vertical-scroll-proportion="-4.8">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/zark_sets/01/14/zark.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/cell_row.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/drawable-hdpi/cell_single.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/zark_sets/03/header.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/955logo.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/me/breidenbach/GadZarksActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="48" selection-start="869" selection-end="869" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/activity_main.xml">
       <provider editor-type-id="text-editor">
         <state line="30" column="55" selection-start="1899" selection-end="1899" vertical-scroll-proportion="-8.4">
@@ -1205,6 +1267,119 @@
       </provider>
       <provider selected="true" editor-type-id="android-designer">
         <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/me/breidenbach/gadzarks/views/PoemView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="59" selection-start="1449" selection-end="1449" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/values/styles.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/values/dimens.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="12" selection-start="212" selection-end="212" vertical-scroll-proportion="-3.6">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/me/breidenbach/gadzarks/engine/time/TimeManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="21" selection-start="1004" selection-end="1004" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/me/breidenbach/gadzarks/engine/time/TimeReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="24" selection-start="230" selection-end="230" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/me/breidenbach/gadzarks/engine/time/EpochChangeListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="26" selection-start="206" selection-end="206" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/me/breidenbach/gadzarks/engine/time/DaysSinceEpoch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="65" column="32" selection-start="1689" selection-end="1689" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/me/breidenbach/gadzarks/engine/data/Zark.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="25" selection-start="650" selection-end="650" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/me/breidenbach/gadzarks/engine/data/SetUpData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="87" column="105" selection-start="3424" selection-end="3424" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/me/breidenbach/GadZarksActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="55" column="65" selection-start="1692" selection-end="1744" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/me/breidenbach/gadzarks/engine/data/ZarkSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="22" selection-start="738" selection-end="738" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/me/breidenbach/gadzarks/engine/EngineDataChangeListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="23" selection-start="178" selection-end="178" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/me/breidenbach/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="12" selection-start="290" selection-end="408" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/me/breidenbach/gadzarks/engine/Engine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="88" column="5" selection-start="2973" selection-end="2973" vertical-scroll-proportion="1.2931035">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
   </component>

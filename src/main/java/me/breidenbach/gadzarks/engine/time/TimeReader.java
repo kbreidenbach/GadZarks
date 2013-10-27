@@ -7,4 +7,6 @@ package me.breidenbach.gadzarks.engine.time;
  */
 public interface TimeReader {
     int getDaysSinceEpoch();
+
+    void addListener(EpochChangeListener listener);
 }
