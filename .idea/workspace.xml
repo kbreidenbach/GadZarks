@@ -25,6 +25,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="85c86a4e-3bfd-4c92-b114-66169fd47f9c" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-mdpi/cell_single.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/cell_single.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xxhdpi/cell_single.png" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/cell_single@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-hdpi/background@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-hdpi/border@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-mdpi/background@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-mdpi/border@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-xhdpi/background@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-xhdpi/border@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-xxhdpi/background@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-xxhdpi/border@2x.png" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/cell_single.png" afterPath="$PROJECT_DIR$/res/drawable-hdpi/cell_single.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/me/breidenbach/HelloAndroidActivity.java" afterPath="$PROJECT_DIR$/src/main/java/me/breidenbach/HelloAndroidActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/activity_main.xml" afterPath="$PROJECT_DIR$/res/layout/activity_main.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -32,8 +46,8 @@
     <ignored path=".idea/workspace.xml" />
     <file path="/a.dummy" changelist="85c86a4e-3bfd-4c92-b114-66169fd47f9c" time="1382746611572" ignored="false" />
     <file path="/strings.xml" changelist="85c86a4e-3bfd-4c92-b114-66169fd47f9c" time="1382746630672" ignored="false" />
-    <file path="/fragment.java" changelist="85c86a4e-3bfd-4c92-b114-66169fd47f9c" time="1382831390675" ignored="false" />
-    <file path="/Dummy.txt" changelist="85c86a4e-3bfd-4c92-b114-66169fd47f9c" time="1382842905514" ignored="false" />
+    <file path="/fragment.java" changelist="85c86a4e-3bfd-4c92-b114-66169fd47f9c" time="1382846777479" ignored="false" />
+    <file path="/Dummy.txt" changelist="85c86a4e-3bfd-4c92-b114-66169fd47f9c" time="1382844874200" ignored="false" />
     <file path="/pom.xml" changelist="85c86a4e-3bfd-4c92-b114-66169fd47f9c" time="1382804086285" ignored="false" />
     <file path="/PlistReader.java" changelist="85c86a4e-3bfd-4c92-b114-66169fd47f9c" time="1382821179080" ignored="false" />
     <file path="/DataException.java" changelist="85c86a4e-3bfd-4c92-b114-66169fd47f9c" time="1382806927388" ignored="false" />
@@ -137,12 +151,19 @@
       </file>
       <file leaf-file-name="activity_main.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/res/layout/activity_main.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="78" selection-start="1993" selection-end="1993" vertical-scroll-proportion="0.65891474">
+          <provider editor-type-id="text-editor">
+            <state line="30" column="55" selection-start="1869" selection-end="1869" vertical-scroll-proportion="-8.4">
               <folding />
             </state>
           </provider>
-          <provider editor-type-id="android-designer">
+          <provider selected="true" editor-type-id="android-designer">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="955logo.png" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/955logo.png">
+          <provider selected="true" editor-type-id="images">
             <state />
           </provider>
         </entry>
@@ -169,6 +190,15 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/me/breidenbach/gadzarks/engine/time/MinutesAsDaysTimeReader.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="25" column="53" selection-start="617" selection-end="617" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HelloAndroidActivity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/me/breidenbach/HelloAndroidActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="35" column="12" selection-start="1287" selection-end="1287" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -204,9 +234,9 @@
         <option value="$PROJECT_DIR$/src/main/java/me/breidenbach/gadzarks/engine/data/ZarkSet.java" />
         <option value="$PROJECT_DIR$/src/main/java/me/breidenbach/gadzarks/engine/time/TimeReaderFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/me/breidenbach/Test.java" />
-        <option value="$PROJECT_DIR$/src/main/java/me/breidenbach/HelloAndroidActivity.java" />
         <option value="$PROJECT_DIR$/src/main/java/me/breidenbach/gadzarks/engine/time/MinutesAsDaysTimeReader.java" />
         <option value="$PROJECT_DIR$/src/main/java/me/breidenbach/gadzarks/engine/time/DaysAsDaysReader.java" />
+        <option value="$PROJECT_DIR$/src/main/java/me/breidenbach/HelloAndroidActivity.java" />
         <option value="$PROJECT_DIR$/res/layout/activity_main.xml" />
       </list>
     </option>
@@ -609,6 +639,46 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GadZarks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GadZarks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zark_sets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GadZarks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GadZarks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zark_sets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="03" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -626,7 +696,7 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/assets" />
-    <property name="AndroidLayoutSelectedEditor" value="text-editor" />
+    <property name="AndroidLayoutSelectedEditor" value="android-designer" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
@@ -648,10 +718,12 @@
       <recent name="$PROJECT_DIR$/assets" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets" />
+      <recent name="$PROJECT_DIR$/res/drawable-hdpi" />
       <recent name="$PROJECT_DIR$/res/assets" />
     </key>
   </component>
-  <component name="RunManager" selected="Android Application.Nexus One Emulator">
+  <component name="RunManager" selected="Android Application.WVGA">
     <configuration default="false" name="Test" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -857,10 +929,29 @@
       <ConfigurationWrapper RunnerId="AndroidDebugRunner" />
       <method />
     </configuration>
-    <list size="3">
+    <configuration default="false" name="WVGA" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="GadZarks" />
+      <option name="ACTIVITY_CLASS" value="me.breidenbach.HelloAndroidActivity" />
+      <option name="MODE" value="specific_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="PREFERRED_AVD" value="AVD_for_3_7in_WVGA_Nexus_One" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="-logcat 'GADZARKS:D|GADZARKS_DATA:D|*.F'" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <RunnerSettings RunnerId="AndroidDebugRunner" />
+      <ConfigurationWrapper RunnerId="AndroidDebugRunner" />
+      <method />
+    </configuration>
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Android Application.HTC Desire Emulator" />
       <item index="1" class="java.lang.String" itemvalue="Android Application.Nexus One Emulator" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Test" />
+      <item index="2" class="java.lang.String" itemvalue="Android Application.WVGA" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Test" />
     </list>
     <recent_temporary>
       <list size="1">
@@ -908,15 +999,19 @@
       <created>1382842910033</created>
       <updated>1382842910033</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added Grid View for days">
+      <created>1382844878086</created>
+      <updated>1382844878086</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1680" height="974" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32986537" sideWeight="0.6709602" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32986537" sideWeight="0.66978925" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32986537" sideWeight="0.6709602" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32986537" sideWeight="0.6709602" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32986537" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -933,12 +1028,12 @@
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.249694" sideWeight="0.6709602" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.249694" sideWeight="0.6709602" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290398" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3290398" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -989,7 +1084,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Got the background done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Grid View for days" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -1006,6 +1101,7 @@
     <MESSAGE value="Complete Plist parsing and data structure for app... Now for the fun stuff" />
     <MESSAGE value="Added the time settings for the app" />
     <MESSAGE value="Got the background done" />
+    <MESSAGE value="Added Grid View for days" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1015,11 +1111,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/res/drawable-xhdpi/ic_launcher.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/res/drawable-xxhdpi/ic_launcher.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -1037,22 +1128,12 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/cell_single.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/cell_grid.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/drawable-hdpi/ic_launcher.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/955logo.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
@@ -1068,11 +1149,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/zark_sets/02/header.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/zark_sets/03/header.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
@@ -1094,13 +1170,35 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/activity_main.xml">
+    <entry file="file://$PROJECT_DIR$/res/drawable-hdpi/cell_single.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/me/breidenbach/HelloAndroidActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="78" selection-start="1993" selection-end="1993" vertical-scroll-proportion="0.65891474">
+        <state line="35" column="12" selection-start="1287" selection-end="1287" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
-      <provider editor-type-id="android-designer">
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/zark_sets/03/header.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/955logo.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/activity_main.xml">
+      <provider editor-type-id="text-editor">
+        <state line="30" column="55" selection-start="1869" selection-end="1869" vertical-scroll-proportion="-8.4">
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
         <state />
       </provider>
     </entry>
