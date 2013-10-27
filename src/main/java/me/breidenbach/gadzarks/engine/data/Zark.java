@@ -10,12 +10,12 @@ import android.graphics.drawable.Drawable;
 public class Zark {
     private final String title;
     private final String poemLine;
-    private final Drawable zarkImage;
+    private final String zarkImageFile;
 
-    Zark(final String title, final String poemLine, final Drawable zarkImage) {
+    Zark(final String title, final String poemLine, final String zarkImageFile) {
         this.title = title;
         this.poemLine = poemLine;
-        this.zarkImage = zarkImage;
+        this.zarkImageFile = zarkImageFile;
     }
 
     public String title() {
@@ -26,7 +26,7 @@ public class Zark {
         return poemLine;
     }
 
-    public Drawable zarkImage() {
-        return zarkImage;
+    public String zarkImageFile() {
+        return zarkImageFile;
     }
 }

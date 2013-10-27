@@ -79,7 +79,7 @@ public class SetUpData {
         final PlistReader reader = new PlistReader(context, file);
         final String title = reader.readKey("Title");
         final String poemLine = reader.readKey("PoemLine");
-        return new Zark(title, poemLine, getImage(imageFile));
+        return new Zark(title, poemLine, imageFile);
     }
 
     private String folderNumberString(final int folderNumber) {

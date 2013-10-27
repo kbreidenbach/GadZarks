@@ -5,10 +5,13 @@ import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.Menu;
+import android.widget.GridLayout;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
+import me.breidenbach.gadzarks.engine.data.DataException;
 import me.breidenbach.gadzarks.engine.time.TimeManager;
 import me.breidenbach.gadzarks.engine.time.TimeReader;
+import me.breidenbach.gadzarks.views.GridView;
 import me.breidenbach.gadzarks.views.PoemView;
 
 import java.io.IOException;
@@ -21,6 +24,7 @@ public class GadZarksActivity extends Activity {
 
     private ImageView menuImageView;
     private PoemView poemView;
+    private GridView gridView;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -31,6 +35,7 @@ public class GadZarksActivity extends Activity {
 
         setContentView(R.layout.activity_main);
         setPoemView();
+        setGridView();
         setMenuImage();
 
 
@@ -66,6 +71,15 @@ public class GadZarksActivity extends Activity {
         poemView = new PoemView(layout);
         poemView.setTitleText("Speak");
         poemView.setPoemLineText("Eye to eye when speaking");
+    }
+
+    private void setGridView() {
+        GridLayout grid = (GridLayout) findViewById(R.id.mainLayout);
+        try {
+            gridView = new GridView(grid);
+        } catch (DataException e) {
+            Log.wtf(LOG_TAG, "Error loading data: " + e.getMessage());
+        }
     }
 
 }
