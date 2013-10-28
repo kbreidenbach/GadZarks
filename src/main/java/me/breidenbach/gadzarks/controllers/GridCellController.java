@@ -52,7 +52,7 @@ public class GridCellController implements View.OnClickListener {
                 PoemView.setPoemLineText(cellData.poemLine());
             }
         } else {
-            HeaderView.setHeaderView(null);
+            HeaderView.setImage(null);
             ZarkView.setImage(null);
             PoemView.setPoemLineText("");
             PoemView.setTitleText("");
