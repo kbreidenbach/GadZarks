@@ -42,7 +42,7 @@ public class GridView implements EngineDataChangeListener {
         CellDataStructure[] cellDataArray = engine.getGridData();
         RelativeLayout cellLayout;
 
-        for (int i = 0; i < 16; i++) {
+        for (int i = 0; i < Engine.NUMBER_OF_CELLS; i++) {
             CellDataStructure cellData = cellDataArray[i];
             cellLayout = (RelativeLayout) gridLayout.getChildAt(i);
 
