@@ -35,12 +35,16 @@ class DaysSinceEpoch implements TimeReader {
     }
 
     @Override
+    public Date epoch() {
+        return epoch;
+    }
+
+    @Override
     public void addListener(EpochChangeListener listener) {
         if (!listeners.contains(listener)) {
             listeners.add(listener);
         }
     }
-
 
     public void epochChaged(Date newDate) {
         epoch = newDate;
