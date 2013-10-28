@@ -26,9 +26,9 @@ public class Engine implements EpochChangeListener {
 
     private int daysSinceEpoch;
 
-    public Engine(Context context) throws DataException {
+    public Engine(Context context, TimeReader reader) throws DataException {
         this.context = context;
-        this.timeReader = new TimeManager(context).getTimeReader();
+        this.timeReader = reader;
         this.zarkSets = new SetUpData(context).zarkSets();
         this.daysSinceEpoch = timeReader.getDaysSinceEpoch();
         setUpList();
@@ -62,6 +62,13 @@ public class Engine implements EpochChangeListener {
         if (daysSinceEpoch >= 16) {
             int startPoint = (daysSinceEpoch - 16)/4;
             firstItemToDisplay = (startPoint + 1) * 4;
+            if (firstItemToDisplay > cellData.size()) {
+                firstItemToDisplay = cellData.size() - 16;
+            }
+        }
+
+        if (lastLabelToDisplay >= cellData.size()) {
+            lastLabelToDisplay = cellData.size();
         }
 
         int gridIndex = 0;

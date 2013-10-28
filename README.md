@@ -17,3 +17,7 @@ Known Issues
 - The required fonts were not available for Android, and I could not download. Close alternative shown
 - Border image does not appear to display correctly in emulator, but appears correct in IntelliJ designer
 
+Additions
+---------
+
+- By default the system runs as 1 minutes = 1 day. This is intentionally and will be changed when Settings window is complete

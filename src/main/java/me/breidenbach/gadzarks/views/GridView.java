@@ -12,7 +12,6 @@ import me.breidenbach.gadzarks.controllers.GridCellController;
 import me.breidenbach.gadzarks.engine.CellDataStructure;
 import me.breidenbach.gadzarks.engine.Engine;
 import me.breidenbach.gadzarks.engine.EngineDataChangeListener;
-import me.breidenbach.gadzarks.engine.data.DataException;
 
 /**
  * User: Kevin Breidenbach
@@ -25,16 +24,14 @@ public class GridView implements EngineDataChangeListener {
     private final GridLayout gridLayout;
     private final Engine engine;
 
-    public GridView(GridLayout gridLayout) throws DataException {
+    public GridView(GridLayout gridLayout, Engine engine) {
         this.gridLayout = gridLayout;
-        this.engine = new Engine(gridLayout.getContext());
+        this.engine = engine;
         this.labelLayoutParams = setUpLabelLayoutParams();
         this.colorLabelLayoutParams = setUpColorLabelLayoutParams();
         engine.addDataChangeListener(this);
         setUpGrid();
     }
-
-
 
     @Override
     public void dataChanged() {
