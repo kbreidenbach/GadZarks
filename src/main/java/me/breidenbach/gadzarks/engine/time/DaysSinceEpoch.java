@@ -1,5 +1,7 @@
 package me.breidenbach.gadzarks.engine.time;
 
+import android.util.Log;
+
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.GregorianCalendar;
@@ -12,7 +14,7 @@ import java.util.List;
  */
 class DaysSinceEpoch implements TimeReader {
     private static final long DATE_DIVISOR = (1000 * 60 * 60 * 24);
-    private static final long MINUTE_DIVISOR = (1000 * 60 * 60 * 24);
+    private static final long MINUTE_DIVISOR = (1000 * 60);
 
     private final List<EpochChangeListener> listeners = new ArrayList();
     private Date epoch;
@@ -47,7 +49,7 @@ class DaysSinceEpoch implements TimeReader {
 
 
 
-    public void useFast(Boolean useFast) {
+    public void useFast(boolean useFast) {
         this.useFast = useFast;
         notifyListenersUseFastChanged();
     }
