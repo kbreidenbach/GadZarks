@@ -1,7 +1,7 @@
 <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent" xmlns:android="http://schemas.android.com/apk/res/android"
-        android:background="#000000" android:id="@+id/poemLayout">
+        android:background="#000000" android:id="@+id/baseLayout">
     <RelativeLayout
             android:layout_width="320dp"
             android:layout_height="480dp" android:layout_alignParentLeft="true"
@@ -18,14 +18,15 @@
                         android:layout_height="33dp"
                         android:id="@+id/headerImageView" android:layout_alignParentBottom="true"
                         android:layout_alignParentLeft="true" android:layout_marginLeft="30dp"
-                        android:longClickable="true"/>
+                        android:longClickable="true" android:contentDescription="@string/header_image_description"/>
                 <ImageView
                         android:layout_width="43dp"
                         android:layout_height="49dp"
                         android:id="@+id/menuImageView" android:layout_alignParentRight="true"
                         android:layout_alignParentBottom="true" android:layout_marginRight="20dp"
                         android:longClickable="false" android:clickable="true"
-                        android:baselineAlignBottom="false" android:layout_marginBottom="5dp"/>
+                        android:baselineAlignBottom="false" android:layout_marginBottom="5dp"
+                        android:contentDescription="@string/nenu_image_description"/>
             </RelativeLayout>
             <RelativeLayout
                     android:layout_width="match_parent"
@@ -155,12 +156,50 @@
                 <ImageView
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:id="@+id/zarkImageView"/>
+                        android:id="@+id/zarkImageView" android:contentDescription="@string/zark_image_description"/>
             </RelativeLayout>
             <RelativeLayout
                     android:layout_width="fill_parent"
-                    android:layout_height="fill_parent" android:layout_margin="40dp" android:background="#0a0a0a"
+                    android:layout_height="fill_parent" android:background="#0a0a0a"
                     android:clickable="true" android:id="@+id/settingsLayout">
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/city"
+                        android:layout_gravity="center" android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp" android:layout_marginTop="40dp" android:textColor="#c8c8c8"
+                        android:gravity="center_horizontal" android:id="@+id/textView"/>
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/name"
+                        android:layout_gravity="center_horizontal|top"
+                        android:layout_marginLeft="20dp" android:layout_marginTop="20dp"
+                        android:layout_marginRight="20dp" android:gravity="center_horizontal"
+                        android:textColor="#c8c8c8"/>
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/email_address"
+                        android:layout_marginLeft="10dp" android:layout_marginTop="60dp"
+                        android:layout_marginRight="10dp" android:gravity="center_horizontal"
+                        android:textColor="#c8c8c8" android:singleLine="true"/>
+                <Button
+                        android:layout_width="130dp"
+                        android:layout_height="40dp"
+                        android:text="@string/change_date_button_text"
+                        android:id="@+id/dateButton"
+                        android:layout_alignParentTop="false"
+                        android:layout_marginBottom="80dp" android:layout_alignParentBottom="true"
+                        android:layout_alignParentLeft="false"
+                        android:focusable="false"
+                        android:layout_centerHorizontal="true"/>
+                <Button
+                        android:layout_width="130dp"
+                        android:layout_height="40dp"
+                        android:text="@string/cancel_button_text"
+                        android:id="@+id/cancelButton" android:layout_alignParentBottom="true"
+                        android:layout_marginBottom="20dp" android:layout_centerHorizontal="true"/>
             </RelativeLayout>
         </RelativeLayout>
     </RelativeLayout>

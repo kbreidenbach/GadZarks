@@ -7,6 +7,7 @@ import android.util.Log;
 import android.view.Menu;
 import android.widget.GridLayout;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import me.breidenbach.gadzarks.engine.Engine;
 import me.breidenbach.gadzarks.engine.data.DataException;
@@ -24,6 +25,7 @@ public class GadZarksActivity extends Activity {
     private static final String LOG_TAG = "GADZARKS_INITIALIZER";
 
     private TimeReader timeReader;
+    private TimeManager timeManager;
     private ImageView menuImageView;
     private PoemView poemView;
     private GridView gridView;
@@ -32,10 +34,10 @@ public class GadZarksActivity extends Activity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        TimeManager trf = new TimeManager(this);
-        trf.useFastTimeReader(true);
-        //trf.setDate(GregorianCalendar.getInstance().getTime());
-        timeReader = trf.getTimeReader();
+        timeManager = new TimeManager(this);
+        timeManager.useFastTimeReader(true);
+        timeManager.setDate(GregorianCalendar.getInstance().getTime());
+        timeReader = timeManager.getTimeReader();
 
         setContentView(R.layout.activity_main);
         setHeaderView();
@@ -90,7 +92,7 @@ public class GadZarksActivity extends Activity {
 
     private void setSettingsView() {
         RelativeLayout settingsLayout = (RelativeLayout) findViewById(R.id.settingsLayout);
-        settingsView = new SettingsView(settingsLayout);
+        settingsView = new SettingsView(settingsLayout, menuImageView, timeManager);
         settingsView.hideLayout();
     }
 
