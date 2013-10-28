@@ -16,6 +16,7 @@ Known Issues
 
 - The required fonts were not available for Android, and I could not download. Close alternative shown
 - Border image does not appear to display correctly in emulator, but appears correct in IntelliJ designer
+- Double digit cell labels sometime only display first character in emulator, clicking on and off to another cell sometimes displays full number
 
 Additions
 ---------
