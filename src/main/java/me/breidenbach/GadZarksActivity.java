@@ -42,15 +42,6 @@ public class GadZarksActivity extends Activity {
         setGridView();
         setMenuImage();
 
-
-        /*while (true) {
-            Log.wtf("GadZarks", "Minutes since Epoch: " + tr.getDaysSinceEpoch());
-            try {
-                Thread.sleep(10000);
-            } catch (InterruptedException e) {
-                e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
-            }
-        } */
     }
 
     @Override
