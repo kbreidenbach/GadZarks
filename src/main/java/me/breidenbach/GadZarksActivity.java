@@ -12,10 +12,7 @@ import me.breidenbach.gadzarks.engine.Engine;
 import me.breidenbach.gadzarks.engine.data.DataException;
 import me.breidenbach.gadzarks.engine.time.TimeManager;
 import me.breidenbach.gadzarks.engine.time.TimeReader;
-import me.breidenbach.gadzarks.views.GridView;
-import me.breidenbach.gadzarks.views.HeaderView;
-import me.breidenbach.gadzarks.views.PoemView;
-import me.breidenbach.gadzarks.views.ZarkView;
+import me.breidenbach.gadzarks.views.*;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -30,12 +27,14 @@ public class GadZarksActivity extends Activity {
     private ImageView menuImageView;
     private PoemView poemView;
     private GridView gridView;
+    private SettingsView settingsView;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         TimeManager trf = new TimeManager(this);
         trf.useFastTimeReader(true);
+        trf.setDate(GregorianCalendar.getInstance().getTime());
         timeReader = trf.getTimeReader();
 
         setContentView(R.layout.activity_main);
@@ -44,7 +43,7 @@ public class GadZarksActivity extends Activity {
         setPoemView();
         setGridView();
         setMenuImage();
-
+        setSettingsView();
     }
 
     @Override
@@ -87,6 +86,12 @@ public class GadZarksActivity extends Activity {
     private void setZarkView() {
         ImageView zarkView = (ImageView) findViewById(R.id.zarkImageView);
         ZarkView.setZarkView(zarkView);
+    }
+
+    private void setSettingsView() {
+        RelativeLayout settingsLayout = (RelativeLayout) findViewById(R.id.settingsLayout);
+        settingsView = new SettingsView(settingsLayout);
+        settingsView.hideLayout();
     }
 
 }

@@ -51,8 +51,8 @@ public class GridView implements EngineDataChangeListener {
                 cellLayout.setOnClickListener(null);
             } else {
                 setCellView(cellLayout, cellData);
-                cellLayout.setOnClickListener(createClickListener(cellLayout, cellData));
             }
+            cellLayout.setOnClickListener(createClickListener(cellLayout, cellData));
         }
     }
 

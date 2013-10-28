@@ -38,17 +38,24 @@ public class GridCellController implements View.OnClickListener {
     @Override
     public void onClick(View v) {
         displayDisc();
-        if (cellData.headerImage() != null) {
-            displayColorHeader();
-        }
-        if (!cellData.zarkImageFile().isEmpty()) {
-            displayZarkImage();
-        }
-        if (!cellData.title().isEmpty()) {
-            PoemView.setTitleText(cellData.title());
-        }
-        if (!cellData.poemLine().isEmpty()) {
-            PoemView.setPoemLineText(cellData.poemLine());
+        if (cellData != null) {
+            if (cellData.headerImage() != null) {
+                displayColorHeader();
+            }
+            if (!cellData.zarkImageFile().isEmpty()) {
+                displayZarkImage();
+            }
+            if (!cellData.title().isEmpty()) {
+                PoemView.setTitleText(cellData.title());
+            }
+            if (!cellData.poemLine().isEmpty()) {
+                PoemView.setPoemLineText(cellData.poemLine());
+            }
+        } else {
+            HeaderView.setHeaderView(null);
+            ZarkView.setImage(null);
+            PoemView.setPoemLineText("");
+            PoemView.setTitleText("");
         }
     }
 
