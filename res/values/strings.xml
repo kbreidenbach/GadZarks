@@ -12,6 +12,6 @@
     <string name="nenu_image_description">Menu Image (Clickable)</string>
     <string name="zark_image_description">ZarkImage</string>
     <string name="change_date_button_text">Change Date</string>
-    <string name="cancel_button_text">Cancel</string>
+    <string name="cancel_button_text">Close</string>
 
 </resources>

@@ -10,7 +10,9 @@ import me.breidenbach.R;
 import me.breidenbach.gadzarks.controllers.MenuImageController;
 import me.breidenbach.gadzarks.engine.time.TimeManager;
 
+import java.util.Calendar;
 import java.util.Date;
+import java.util.GregorianCalendar;
 
 /**
  * User: Kevin Breidenbach
@@ -47,6 +49,20 @@ public class SettingsView {
         menuImageView.setOnClickListener(new MenuImageController(this));
     }
 
+
+    private void addDataPicker() {
+        Date epoch = timeManager.getTimeReader().epoch();
+        GregorianCalendar calendar = new GregorianCalendar();
+        calendar.setTime(epoch);
+        int year = calendar.get(Calendar.YEAR);
+        int month_of_year = calendar.get(Calendar.MONTH);
+        int day_of_month = calendar.get(Calendar.DAY_OF_MONTH);
+        DatePickerDialog datePicker = new DatePickerDialog(layout.getContext(), dateSetListener,
+                year, month_of_year, day_of_month);
+        datePicker.show();
+
+    }
+
     private void setUpDateButton() {
         Button dateButton = (Button) layout.findViewById(R.id.dateButton);
         dateButton.setOnClickListener(new View.OnClickListener() {
@@ -66,19 +82,14 @@ public class SettingsView {
             }
         });
     }
-    private void addDataPicker() {
-        Date epoch = timeManager.getTimeReader().epoch();
-        DatePickerDialog datePicker = new DatePickerDialog(layout.getContext(), dateSetListener,
-                epoch.getYear(), epoch.getMonth(), epoch.getDay());
-        datePicker.show();
-    }
 
     private DatePickerDialog.OnDateSetListener dateSetListener =
         new DatePickerDialog.OnDateSetListener() {
 
             public void onDateSet(DatePicker view, int year,
                                   int monthOfYear, int dayOfMonth) {
-                setDate(new Date(year,monthOfYear,dayOfMonth,0,0));
+                Date newEpoch = new Date(year - 1900,monthOfYear,dayOfMonth,0,0);
+                setDate(newEpoch);
             }
         };
 }

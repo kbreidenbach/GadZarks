@@ -18,7 +18,6 @@ public class Engine implements EpochChangeListener {
     public static final int NUMBER_OF_CELLS = 16;
     public static final int CELLS_IN_ROW = 4;
 
-    private final Context context;
     private final TimeReader timeReader;
     private final ZarkSets zarkSets;
     private final List<EngineDataChangeListener> listeners = new ArrayList<>();
@@ -28,7 +27,7 @@ public class Engine implements EpochChangeListener {
     private int daysSinceEpoch;
 
     public Engine(Context context, TimeReader reader) throws DataException {
-        this.context = context;
+        reader.addListener(this);
         this.timeReader = reader;
         this.zarkSets = new SetUpData(context).zarkSets();
         this.daysSinceEpoch = timeReader.getDaysSinceEpoch();
