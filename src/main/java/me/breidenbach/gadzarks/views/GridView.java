@@ -46,10 +46,9 @@ public class GridView implements EngineDataChangeListener {
             CellDataStructure cellData = cellDataArray[i];
             cellLayout = (RelativeLayout) gridLayout.getChildAt(i);
 
-            if (cellData == null) {
-                cellLayout.removeAllViews();
-                cellLayout.setOnClickListener(null);
-            } else {
+            cellLayout.removeAllViews();
+
+            if (cellData != null) {
                 setCellView(cellLayout, cellData);
             }
             cellLayout.setOnClickListener(createClickListener(cellLayout, cellData));

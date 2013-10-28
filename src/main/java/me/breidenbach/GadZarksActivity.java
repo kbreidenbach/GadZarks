@@ -7,7 +7,6 @@ import android.util.Log;
 import android.view.Menu;
 import android.widget.GridLayout;
 import android.widget.ImageView;
-import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import me.breidenbach.gadzarks.engine.Engine;
 import me.breidenbach.gadzarks.engine.data.DataException;
@@ -17,7 +16,6 @@ import me.breidenbach.gadzarks.views.*;
 
 import java.io.IOException;
 import java.io.InputStream;
-import java.util.GregorianCalendar;
 
 public class GadZarksActivity extends Activity {
 
@@ -35,8 +33,6 @@ public class GadZarksActivity extends Activity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         timeManager = new TimeManager(this);
-        timeManager.useFastTimeReader(true);
-        timeManager.setDate(GregorianCalendar.getInstance().getTime());
         timeReader = timeManager.getTimeReader();
 
         setContentView(R.layout.activity_main);
