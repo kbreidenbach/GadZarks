@@ -12,7 +12,9 @@ import me.breidenbach.gadzarks.engine.data.DataException;
 import me.breidenbach.gadzarks.engine.time.TimeManager;
 import me.breidenbach.gadzarks.engine.time.TimeReader;
 import me.breidenbach.gadzarks.views.GridView;
+import me.breidenbach.gadzarks.views.HeaderView;
 import me.breidenbach.gadzarks.views.PoemView;
+import me.breidenbach.gadzarks.views.ZarkView;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -34,6 +36,8 @@ public class GadZarksActivity extends Activity {
         TimeReader tr = trf.getTimeReader();
 
         setContentView(R.layout.activity_main);
+        setHeaderView();
+        setZarkView();
         setPoemView();
         setGridView();
         setMenuImage();
@@ -69,8 +73,6 @@ public class GadZarksActivity extends Activity {
     private void setPoemView() {
         RelativeLayout layout = (RelativeLayout) findViewById(R.id.poemLayout);
         poemView = new PoemView(layout);
-        poemView.setTitleText("Speak");
-        poemView.setPoemLineText("Eye to eye when speaking");
     }
 
     private void setGridView() {
@@ -80,6 +82,16 @@ public class GadZarksActivity extends Activity {
         } catch (DataException e) {
             Log.wtf(LOG_TAG, "Error loading data: " + e.getMessage());
         }
+    }
+
+    private void setHeaderView() {
+        ImageView headerView = (ImageView) findViewById(R.id.headerImageView);
+        HeaderView.setHeaderView(headerView);
+    }
+
+    private void setZarkView() {
+        ImageView zarkView = (ImageView) findViewById(R.id.zarkImageView);
+        ZarkView.setZarkView(zarkView);
     }
 
 }

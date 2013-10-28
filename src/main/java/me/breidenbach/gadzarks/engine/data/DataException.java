@@ -7,11 +7,11 @@ package me.breidenbach.gadzarks.engine.data;
  */
 public class DataException extends Exception {
 
-    DataException (String message) {
+    public DataException (String message) {
         super(message);
     }
 
-    DataException (String message, Throwable cause) {
+    public DataException (String message, Throwable cause) {
         super(message, cause);
     }
 }

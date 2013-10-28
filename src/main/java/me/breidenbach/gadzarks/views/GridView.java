@@ -2,12 +2,13 @@ package me.breidenbach.gadzarks.views;
 
 import android.graphics.Color;
 import android.graphics.Typeface;
-import android.util.Log;
 import android.util.TypedValue;
 import android.view.Gravity;
+import android.view.View;
 import android.widget.GridLayout;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
+import me.breidenbach.gadzarks.controllers.GridCellController;
 import me.breidenbach.gadzarks.engine.CellDataStructure;
 import me.breidenbach.gadzarks.engine.Engine;
 import me.breidenbach.gadzarks.engine.EngineDataChangeListener;
@@ -50,10 +51,16 @@ public class GridView implements EngineDataChangeListener {
 
             if (cellData == null) {
                 cellLayout.removeAllViews();
+                cellLayout.setOnClickListener(null);
             } else {
                 setCellView(cellLayout, cellData);
+                cellLayout.setOnClickListener(createClickListener(cellLayout, cellData));
             }
         }
+    }
+
+    private View.OnClickListener createClickListener(RelativeLayout cellLayout, CellDataStructure cellData) {
+        return new GridCellController(cellData, cellLayout);
     }
 
     private void setCellView(RelativeLayout cellLayout, CellDataStructure cellData) {

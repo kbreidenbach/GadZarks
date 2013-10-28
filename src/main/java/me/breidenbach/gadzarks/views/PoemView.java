@@ -1,6 +1,5 @@
 package me.breidenbach.gadzarks.views;
 
-import android.content.Context;
 import android.graphics.Color;
 import android.graphics.Typeface;
 import android.util.TypedValue;
@@ -15,13 +14,13 @@ import me.breidenbach.R;
  */
 public class PoemView  {
     private final RelativeLayout layout;
-    private final TextView titleTextView;
-    private final TextView poemLineTextView;
+    private static TextView titleTextView;
+    private static TextView poemLineTextView;
 
     public PoemView(RelativeLayout layout) {
         this.layout = layout;
-        this.titleTextView = (TextView)layout.findViewById(R.id.titleTextView);
-        this.poemLineTextView = (TextView)layout.findViewById(R.id.poemLineTextView);
+        titleTextView = (TextView)layout.findViewById(R.id.titleTextView);
+        poemLineTextView = (TextView)layout.findViewById(R.id.poemLineTextView);
         setupView();
     }
 
@@ -37,11 +36,11 @@ public class PoemView  {
         poemLineTextView.setTextColor(Color.rgb(255,255,255));
     }
 
-    public void setTitleText(String text) {
+    public static void setTitleText(String text) {
         titleTextView.setText(text);
     }
 
-    public void setPoemLineText(String text) {
+    public static void setPoemLineText(String text) {
         poemLineTextView.setText(text);
     }
 
