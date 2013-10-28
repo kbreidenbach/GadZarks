@@ -18,7 +18,13 @@ Known Issues
 - Border image does not appear to display correctly in emulator, but appears correct in IntelliJ designer
 - Double digit cell labels sometime only display first character in emulator, clicking on and off to another cell sometimes displays full number
 
+To Do
+-----
+
+- Need to add a timer to check for day change and update grid on a day change event
+
 Additions
 ---------
 
 - By default the system runs as 1 minutes = 1 day. This is intentionally and will be changed when Settings window is complete
+

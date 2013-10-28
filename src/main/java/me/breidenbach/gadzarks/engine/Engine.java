@@ -2,10 +2,8 @@ package me.breidenbach.gadzarks.engine;
 
 import android.content.Context;
 import android.graphics.drawable.Drawable;
-import android.util.Log;
 import me.breidenbach.gadzarks.engine.data.*;
 import me.breidenbach.gadzarks.engine.time.EpochChangeListener;
-import me.breidenbach.gadzarks.engine.time.TimeManager;
 import me.breidenbach.gadzarks.engine.time.TimeReader;
 
 import java.util.ArrayList;
@@ -17,6 +15,9 @@ import java.util.List;
  * time: 11:15 AM
  */
 public class Engine implements EpochChangeListener {
+    public static final int NUMBER_OF_CELLS = 16;
+    public static final int CELLS_IN_ROW = 4;
+
     private final Context context;
     private final TimeReader timeReader;
     private final ZarkSets zarkSets;
@@ -56,14 +57,14 @@ public class Engine implements EpochChangeListener {
     }
 
     private synchronized void setUpGridData() {
-        grid = new CellDataStructure[16];
+        grid = new CellDataStructure[NUMBER_OF_CELLS];
         int lastLabelToDisplay = daysSinceEpoch + 1; // always show at least 1
         int firstItemToDisplay = 0;
-        if (daysSinceEpoch >= 16) {
-            int startPoint = (daysSinceEpoch - 16)/4;
-            firstItemToDisplay = (startPoint + 1) * 4;
+        if (daysSinceEpoch >= NUMBER_OF_CELLS) {
+            int startPoint = (daysSinceEpoch - NUMBER_OF_CELLS) / CELLS_IN_ROW;
+            firstItemToDisplay = (startPoint + 1) * CELLS_IN_ROW;
             if (firstItemToDisplay > cellData.size()) {
-                firstItemToDisplay = cellData.size() - 16;
+                firstItemToDisplay = cellData.size() - NUMBER_OF_CELLS;
             }
         }
 
