@@ -34,7 +34,7 @@ public class GadZarksActivity extends Activity {
         super.onCreate(savedInstanceState);
         TimeManager trf = new TimeManager(this);
         trf.useFastTimeReader(true);
-        trf.setDate(GregorianCalendar.getInstance().getTime());
+        //trf.setDate(GregorianCalendar.getInstance().getTime());
         timeReader = trf.getTimeReader();
 
         setContentView(R.layout.activity_main);
