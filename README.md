@@ -24,6 +24,7 @@ To Do
 -----
 
 - Need to add a timer to check for day change and update grid on a day change event
+- Need to implement scrolling on grid
 
 Additions
 ---------
