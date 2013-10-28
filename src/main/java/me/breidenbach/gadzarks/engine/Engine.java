@@ -2,6 +2,7 @@ package me.breidenbach.gadzarks.engine;
 
 import android.content.Context;
 import android.graphics.drawable.Drawable;
+import android.util.Log;
 import me.breidenbach.gadzarks.engine.data.*;
 import me.breidenbach.gadzarks.engine.time.EpochChangeListener;
 import me.breidenbach.gadzarks.engine.time.TimeManager;
@@ -31,6 +32,7 @@ public class Engine implements EpochChangeListener {
         this.zarkSets = new SetUpData(context).zarkSets();
         this.daysSinceEpoch = timeReader.getDaysSinceEpoch();
         setUpList();
+        setUpGridData();
     }
 
     @Override
@@ -79,12 +81,13 @@ public class Engine implements EpochChangeListener {
                 Zark zark = zarkSet.getZark(n);
                 String title = zark.title();
                 String poemLine = zark.poemLine();
-                Drawable zarkImage = zark.zarkImage();
-                CellDataStructure cell = new CellDataStructure(n, title, poemLine, header, zarkImage);
+                String zarkImageFile = zark.zarkImageFile();
+                CellDataStructure cell = new CellDataStructure(n, title, poemLine, header, zarkImageFile);
                 if (first) {
                     cell.setSetColorLabel(color);
                     first = false;
                 }
+                cellData.add(cell);
             }
         }
     }
@@ -93,36 +96,5 @@ public class Engine implements EpochChangeListener {
         for (EngineDataChangeListener listener : listeners) {
             listener.dataChanged();
         }
-    }
-
-
-    public class CellDataStructure {
-        private final int label;
-        private final String title;
-        private final String poemLine;
-        private final Drawable headerImage;
-        private final Drawable zarkImage;
-        private String setColorLabel = "";
-
-        private CellDataStructure(int label, String title, String poemLine,
-                                  Drawable headerImage, Drawable zarkImage) {
-            this.label = label;
-            this.title = title;
-            this.poemLine = poemLine;
-            this.headerImage = headerImage;
-            this.zarkImage = zarkImage;
-        }
-
-        public void setSetColorLabel(String setColorLabel) {
-            this.setColorLabel = setColorLabel;
-        }
-
-        public String setColorLabel() { return setColorLabel; }
-        public int label() { return label; }
-        public String title() { return title; }
-        public String poemLine() { return poemLine; }
-        public Drawable headerImage() { return headerImage; }
-        public Drawable zarkImage() { return zarkImage; }
-
     }
 }
