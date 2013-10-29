@@ -23,15 +23,18 @@ public class TimeManager {
 
     private final Context context;
     private final DaysSinceEpoch daysSinceEpoch;
+    private final DateChangeScheduler dateChangeScheduler;
 
 
     public TimeManager(Context context) {
         this.context = context;
+        this.dateChangeScheduler = new DateChangeScheduler(context, this);
         Date epoch = readEpochDate();
         if (readEpochDate() == null) {
             epoch = resetEpoch();
         }
         daysSinceEpoch = new DaysSinceEpoch(epoch);
+        dateChangeScheduler.startScheduler();
     }
 
     public void useFastTimeReader(boolean useFast) {
@@ -51,6 +54,10 @@ public class TimeManager {
         Date epoch = GregorianCalendar.getInstance().getTime();
         writeEpochDate(epoch);
         return epoch;
+    }
+
+    void dayChanged() {
+        daysSinceEpoch.itsMidnight();
     }
 
     private void writeEpochDate(Date epochDate) {
