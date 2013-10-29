@@ -23,7 +23,7 @@ Known Issues
 To Do
 -----
 
-- Need to add a timer to check for day change and update grid on a day change event
+- Would like to refactor time management to be more streamlined
 - Need to implement scrolling on grid
 
 Additions
