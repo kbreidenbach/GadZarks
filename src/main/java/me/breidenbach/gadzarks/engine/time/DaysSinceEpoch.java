@@ -51,7 +51,10 @@ class DaysSinceEpoch implements TimeReader {
         notifyListenersEpochChanged();
     }
 
-
+    void itsMidnight() {
+        //epoch hasn't really changed, but this will make them update
+        notifyListenersEpochChanged();
+    }
 
     public void useFast(boolean useFast) {
         this.useFast = useFast;

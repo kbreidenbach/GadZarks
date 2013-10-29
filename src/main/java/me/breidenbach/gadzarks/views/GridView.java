@@ -2,6 +2,7 @@ package me.breidenbach.gadzarks.views;
 
 import android.graphics.Color;
 import android.graphics.Typeface;
+import android.text.InputType;
 import android.util.TypedValue;
 import android.view.Gravity;
 import android.view.View;
@@ -83,6 +84,7 @@ public class GridView implements EngineDataChangeListener {
         label.setTypeface(labelFont, Typeface.BOLD);
         label.setTextSize(TypedValue.COMPLEX_UNIT_SP, 16f);
         label.setTextColor(Color.rgb(10, 10, 10));
+        label.setInputType(InputType.TYPE_CLASS_NUMBER);
         label.setText(Integer.toString(cellData.label()));
         cellLayout.addView(label, labelLayoutParams);
     }
