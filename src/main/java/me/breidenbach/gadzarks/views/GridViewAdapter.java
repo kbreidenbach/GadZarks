@@ -4,6 +4,7 @@ import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AbsListView;
 import android.widget.BaseAdapter;
 import android.widget.GridView;
 import me.breidenbach.gadzarks.engine.CellDataStructure;
@@ -35,6 +36,7 @@ public class GridViewAdapter extends BaseAdapter implements EngineDataChangeList
         this.cellDataList = cellDataList;
         this.daysSinceEpoch = daysSinceEpoch;
         this.viewable = findLastViewable(daysSinceEpoch);
+        setUpScroll();
     }
 
     @Override
@@ -70,6 +72,9 @@ public class GridViewAdapter extends BaseAdapter implements EngineDataChangeList
         this.viewable = findLastViewable(daysSinceEpoch);
         this.notifyDataSetChanged();
         view.invalidateViews();
+        if (viewable > 15) {
+            view.smoothScrollToPosition(viewable - 16);
+        }
     }
 
     private void setData() {
@@ -83,5 +88,22 @@ public class GridViewAdapter extends BaseAdapter implements EngineDataChangeList
         int lastViewable = (((daysSinceEpoch / 4) + 1) * 4) - 1;
         if (lastViewable < 15) { lastViewable = 15; }
         return lastViewable;
+    }
+
+    private void setUpScroll() {
+        view.setOnScrollListener(new AbsListView.OnScrollListener() {
+
+            @Override
+            public void onScrollStateChanged(AbsListView view, int scrollState) {
+                if (scrollState == SCROLL_STATE_IDLE) {
+                    view.smoothScrollToPosition(view.getFirstVisiblePosition());
+                }
+            }
+
+            @Override
+            public void onScroll(AbsListView view, int firstVisibleItem, int visibleItemCount, int totalItemCount) {
+                //To change body of implemented methods use File | Settings | File Templates.
+            }
+        });
     }
 }
