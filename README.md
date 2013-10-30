@@ -5,6 +5,13 @@ Coding problem for 955Dreams.
 
 Info
 ----
+There are two branches.
+
+master:
+This contains a version that uses GridLayout. It builds and shows conrrectly, but is not capable of scrolling
+
+GridView:
+This branch contains a version that uses GridView, and can scroll. It is not yet complete and is a work in progress.
 
 The implementation has been tested on Android Emulator with following characteristics:
 - AVD for 3.7" WVGA Nexus One (380 x 800: hdpi)
