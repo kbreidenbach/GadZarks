@@ -23,20 +23,24 @@ public class GridViewAdapter extends BaseAdapter implements EngineDataChangeList
     private final Context context;
     private final GridView view;
     private final List<CellDataStructure> cellDataList;
+    private List<CellDataStructure> displayDataList;
 
     private int viewable = 1;
+    private int daysSinceEpoch = 1;
 
     public GridViewAdapter(Context context, GridView view, List<CellDataStructure> cellDataList,
-                           int initialViewable) throws DataException {
+                           int daysSinceEpoch) throws DataException {
         this.context = context;
         this.view = view;
         this.cellDataList = cellDataList;
-        this.viewable = initialViewable;
+        this.daysSinceEpoch = daysSinceEpoch;
+        this.viewable = findLastViewable(daysSinceEpoch);
     }
 
     @Override
     public int getCount() {
-        return cellDataList.size();
+        setData();
+        return displayDataList.size();
     }
 
     @Override
@@ -53,7 +57,7 @@ public class GridViewAdapter extends BaseAdapter implements EngineDataChangeList
     public View getView(int position, View convertView, ViewGroup parent) {
 
 
-        if (position > viewable) {
+        if (position > daysSinceEpoch) {
             return new GridCellLayout(context, null);
         } else{
             return new GridCellLayout(context, cellDataList.get(position));
@@ -62,8 +66,22 @@ public class GridViewAdapter extends BaseAdapter implements EngineDataChangeList
 
     @Override
     public void dataChanged(int daysSinceEpoch) {
-        this.viewable = daysSinceEpoch;
+        this.daysSinceEpoch = daysSinceEpoch;
+        this.viewable = findLastViewable(daysSinceEpoch);
+        this.notifyDataSetChanged();
         view.invalidateViews();
     }
 
+    private void setData() {
+        displayDataList = new ArrayList<>();
+        for (int i=0; i <= viewable; i++) {
+            displayDataList.add(i, cellDataList.get(i));
+        }
+    }
+
+    private int findLastViewable(int daysSinceEpoch) {
+        int lastViewable = (((daysSinceEpoch / 4) + 1) * 4) - 1;
+        if (lastViewable < 15) { lastViewable = 15; }
+        return lastViewable;
+    }
 }

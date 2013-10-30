@@ -71,7 +71,8 @@ public class GadZarksActivity extends Activity {
 
         try {
             Engine engine = new Engine(this, timeReader);
-            GridViewAdapter gridViewAdapter = new GridViewAdapter(this, gridView, engine.cellData(), timeReader.getDaysSinceEpoch());
+            GridViewAdapter gridViewAdapter = new GridViewAdapter(this, gridView, engine.cellData(),
+                    timeReader.getDaysSinceEpoch());
             engine.addDataChangeListener(gridViewAdapter);
             gridView.setAdapter(gridViewAdapter);
         } catch (DataException e) {
