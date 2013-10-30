@@ -5,6 +5,7 @@ import android.graphics.drawable.Drawable;
 import me.breidenbach.gadzarks.engine.data.*;
 import me.breidenbach.gadzarks.engine.time.EpochChangeListener;
 import me.breidenbach.gadzarks.engine.time.TimeReader;
+import me.breidenbach.gadzarks.views.GridViewAdapter;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -22,7 +23,6 @@ public class Engine implements EpochChangeListener {
     private final ZarkSets zarkSets;
     private final List<EngineDataChangeListener> listeners = new ArrayList<>();
     private final List<CellDataStructure> cellData = new ArrayList<>();
-    private CellDataStructure[] grid;
 
     private int daysSinceEpoch;
 
@@ -47,34 +47,19 @@ public class Engine implements EpochChangeListener {
         setUpGridData();
     }
 
+    public List<CellDataStructure> cellData() {
+        return cellData;
+    }
+
     public void addDataChangeListener(EngineDataChangeListener listener) {
         listeners.add(listener);
     }
 
     public synchronized CellDataStructure[] getGridData() {
-        return grid;
+        return null;
     }
 
     private synchronized void setUpGridData() {
-        grid = new CellDataStructure[NUMBER_OF_CELLS];
-        int lastLabelToDisplay = daysSinceEpoch + 1; // always show at least 1
-        int firstItemToDisplay = 0;
-        if (daysSinceEpoch >= NUMBER_OF_CELLS) {
-            int startPoint = (daysSinceEpoch - NUMBER_OF_CELLS) / CELLS_IN_ROW;
-            firstItemToDisplay = (startPoint + 1) * CELLS_IN_ROW;
-            if (firstItemToDisplay > cellData.size()) {
-                firstItemToDisplay = cellData.size() - NUMBER_OF_CELLS;
-            }
-        }
-
-        if (lastLabelToDisplay >= cellData.size()) {
-            lastLabelToDisplay = cellData.size();
-        }
-
-        int gridIndex = 0;
-        for (int index = firstItemToDisplay; index < lastLabelToDisplay; index++) {
-            grid[gridIndex++] = cellData.get(index);
-        }
         notifyDataChange();
     }
 
@@ -101,7 +86,7 @@ public class Engine implements EpochChangeListener {
 
     private void notifyDataChange() {
         for (EngineDataChangeListener listener : listeners) {
-            listener.dataChanged();
+            listener.dataChanged(daysSinceEpoch);
         }
     }
 }

@@ -6,5 +6,5 @@ package me.breidenbach.gadzarks.engine;
  * Time: 2:25 PM
  */
 public interface EngineDataChangeListener {
-    void dataChanged();
+    void dataChanged(int daysSinceEpoch);
 }

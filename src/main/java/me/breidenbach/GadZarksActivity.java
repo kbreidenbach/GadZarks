@@ -5,7 +5,7 @@ import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.Menu;
-import android.widget.GridLayout;
+import android.widget.GridView;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import me.breidenbach.gadzarks.engine.Engine;
@@ -13,6 +13,7 @@ import me.breidenbach.gadzarks.engine.data.DataException;
 import me.breidenbach.gadzarks.engine.time.TimeManager;
 import me.breidenbach.gadzarks.engine.time.TimeReader;
 import me.breidenbach.gadzarks.views.*;
+
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -26,7 +27,6 @@ public class GadZarksActivity extends Activity {
     private TimeManager timeManager;
     private ImageView menuImageView;
     private PoemView poemView;
-    private GridView gridView;
     private SettingsView settingsView;
 
     @Override
@@ -67,13 +67,17 @@ public class GadZarksActivity extends Activity {
     }
 
     private void setGridView() {
-        GridLayout grid = (GridLayout) findViewById(R.id.mainLayout);
+        GridView gridView = (GridView) findViewById(R.id.gridView);
+
         try {
             Engine engine = new Engine(this, timeReader);
-            gridView = new GridView(grid, engine);
+            GridViewAdapter gridViewAdapter = new GridViewAdapter(this, gridView, engine.cellData(), timeReader.getDaysSinceEpoch());
+            engine.addDataChangeListener(gridViewAdapter);
+            gridView.setAdapter(gridViewAdapter);
         } catch (DataException e) {
             Log.wtf(LOG_TAG, "Error loading data: " + e.getMessage());
         }
+
     }
 
     private void setHeaderView() {

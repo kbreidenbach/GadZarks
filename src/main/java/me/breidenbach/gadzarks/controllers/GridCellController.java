@@ -6,6 +6,7 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import me.breidenbach.gadzarks.engine.CellDataStructure;
+import me.breidenbach.gadzarks.utils.ImageUtils;
 import me.breidenbach.gadzarks.views.HeaderView;
 import me.breidenbach.gadzarks.views.PoemView;
 import me.breidenbach.gadzarks.views.ZarkView;
@@ -19,7 +20,6 @@ import java.io.InputStream;
  * Time: 5:50 PM
  */
 public class GridCellController implements View.OnClickListener {
-    private static final String LOG_TAG = "GADZARKS_GRIDCELLCONTROLLER";
     private static final String DISC_FILE = "selection_disc.png";
 
     // Last layout to be clicked
@@ -60,7 +60,7 @@ public class GridCellController implements View.OnClickListener {
     }
 
     private void displayDisc() {
-        Drawable disc = getImage(DISC_FILE);
+        Drawable disc = ImageUtils.getImage(layout, DISC_FILE);
         if (lastClickedCell != null) {
             lastClickedCell.setImageDrawable(null);
         }
@@ -77,20 +77,8 @@ public class GridCellController implements View.OnClickListener {
     }
 
     private void displayZarkImage() {
-        Drawable zarkImage = getImage(cellData.zarkImageFile());
+        Drawable zarkImage = ImageUtils.getImage(layout, cellData.zarkImageFile());
         ZarkView.setImage(zarkImage);
-    }
-
-    private Drawable getImage(String file) {
-        Drawable image = null;
-        try {
-            InputStream ims = layout.getContext().getAssets().open(file);
-            image = Drawable.createFromStream(ims, null);
-        } catch (IOException e) {
-            Log.e(LOG_TAG, "Error loading disc image: " + e.getMessage());
-        }
-
-        return image;
     }
 
     private RelativeLayout.LayoutParams setUpLayoutParams() {
