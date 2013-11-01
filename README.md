@@ -14,7 +14,7 @@ GridView:
 This branch contains a version that uses GridView, and can scroll. It is not yet complete and is a work in progress.
 
 The implementation has been tested on Android Emulator with following characteristics:
-- AVD for 3.7" WVGA Nexus One (380 x 800: hdpi)
+- AVD for 3.7" WVGA Nexus One (480 x 800: hdpi)
 - Android 4.0 - API level 14
 - RAM 2048
 - VM Heap 256
